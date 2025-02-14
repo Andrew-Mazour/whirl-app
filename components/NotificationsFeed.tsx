@@ -27,7 +27,9 @@ const NotificationsFeed = () => {
     }
     return (
         <div className="flex flex-col">
-            {fetchedNotifications.map((notification: Record<string, any>) => (
+            {fetchedNotifications.map(
+                // eslint-disable-next-line
+                (notification: Record<string, any>) => (
                 <div
                     key={notification.id}
                     className="

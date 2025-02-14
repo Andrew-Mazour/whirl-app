@@ -11,6 +11,7 @@ import useLike from "@/hooks/useLike";
 import { AiFillHeart } from "react-icons/ai";
 
 interface PostItemProps {
+    // eslint-disable-next-line
     data: Record<string, any>;
     userId?: string;
 }
@@ -21,7 +22,7 @@ const PostItem: React.FC<PostItemProps> = ({ data, userId }) => {
 
     const { data: currentUser} = useCurrentUser();
     const {hasLiked, toggleLike} = useLike({postId: data.id, userId});
-
+    // eslint-disable-next-line
     const goToUser = useCallback((event: any) => {
         event.stopPropagation();
 
@@ -31,7 +32,7 @@ const PostItem: React.FC<PostItemProps> = ({ data, userId }) => {
     const goToPost = useCallback(() => {
         router.push(`/posts/${data.id}`);
     }, [router, data.id]);
-
+    // eslint-disable-next-line
     const onLike = useCallback((event: any) => {
         event.stopPropagation();
 

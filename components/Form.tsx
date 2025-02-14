@@ -47,6 +47,7 @@ const Form: React.FC<FormProps> = ({
             mutatePost();
 
         } catch (error) {
+            console.log(error)
             toast.error('Something went wrong');
         } finally {
             setIsLoading(false);

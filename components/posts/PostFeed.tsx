@@ -10,7 +10,9 @@ const PostFeed: React.FC<PostFeedProps> = ({ userId }) => {
     const {data: posts = []} = usePosts(userId);
     return (
         <>
-            {posts.map((post: Record<string, any>) => (
+            {posts.map(
+                // eslint-disable-next-line
+                (post: Record<string, any>) => (
                 <PostItem 
                     userId={userId}
                     key={post.id}

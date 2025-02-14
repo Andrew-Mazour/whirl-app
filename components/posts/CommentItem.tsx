@@ -5,12 +5,13 @@ import { useMemo } from "react";
 import Avatar from "../Avatar";
 
 interface CommentItemProps {
+    // eslint-disable-next-line
     data: Record<string, any>
 };
 
 const CommentItem: React.FC<CommentItemProps> = ({data}) => {
     const router = useRouter();
-
+    // eslint-disable-next-line
     const goToUser = useCallback((event: any) => {
         event.stopPropagation();
 

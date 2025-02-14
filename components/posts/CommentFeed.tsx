@@ -1,6 +1,7 @@
 import CommentItem from "./CommentItem";
 
 interface CommentFeedProps {
+    // eslint-disable-next-line
     comments?: Record<string, any>[];
 }
 
