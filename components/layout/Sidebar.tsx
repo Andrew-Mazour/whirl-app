@@ -1,5 +1,3 @@
-import {BsHouseFill, BsBellFill} from 'react-icons/bs';
-import {FaUser} from 'react-icons/fa';
 import {BiLogOut} from 'react-icons/bi';
 
 import SidebarLogo from './SidebarLogo';
@@ -7,6 +5,8 @@ import SidebarItem from './SidebarItem';
 import SidebarTweetButton from './SidebarTweetButton';
 import useCurrentUser from '@/hooks/useCurrentUser';
 import {signOut} from 'next-auth/react';
+import { MdHome, MdNotifications, MdPerson} from 'react-icons/md';
+
 
 const Sidebar = () => {
     const {data: currentUser} = useCurrentUser();
@@ -15,19 +15,19 @@ const Sidebar = () => {
         {
             label: 'Home',
             href: '/',
-            icon: BsHouseFill
+            icon: MdHome
         },
         {
             label: 'Notifications',
             href: '/notifications',
-            icon: BsBellFill,
+            icon: MdNotifications,
             auth: true,
             alert: currentUser?.hasNotification,
         },
         {
             label: 'Profile',
             href: `/users/${currentUser?.id}`,
-            icon: FaUser,
+            icon: MdPerson,
             auth: true
         }
     ];

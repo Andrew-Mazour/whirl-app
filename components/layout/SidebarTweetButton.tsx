@@ -1,16 +1,9 @@
-
-import { FaFeather} from 'react-icons/fa';
-
-
-
+import Image from "next/image";
 
 const SidebarTweetButton = () => {
-    
-    
-
     return (
         <div>
-            {/* Non-clickable Feather Logo */}
+            {/* Image for Mobile View */}
             <div
                 className="
                     mt-6
@@ -18,44 +11,50 @@ const SidebarTweetButton = () => {
                     rounded-full
                     h-14
                     w-14
-                    p-4
+                    p-2
                     flex
                     items-center
                     justify-center
-                    bg-sky-500
                     hover:bg-opacity-80
                     transition
+                "
+            >
+                <Image 
+                    src="/images/whirl.png" 
+                    alt="Tweet"
+                    width={40} 
+                    height={40} 
+                    className="rounded-full"
+                />
+            </div>
+
+            {/* Image for Desktop View */}
+            <div 
+                className="
+                    mt-6
+                    hidden
+                    lg:flex
+                    items-center
+                    justify-center
                     
                 "
             >
-                <FaFeather size={24} color="white" />
+                <Image 
+                    src="/images/whirl.png" 
+                    alt="Tweet"
+                    width={60} 
+                    height={60} 
+                    className="mr-2"
+                />
+                <p className="
+                    text-center
+                    font-semibold
+                    text-white
+                    text-[20px]
+                ">
+                    
+                </p>
             </div>
-            <div className="
-                mt-6
-                hidden
-                lg:block
-                px-4
-                py-2
-                rounded-full
-                bg-sky-500
-                hover:bg-opacity-90
-                
-                transition
-            "
-        >
-            <p className="
-                hidden
-                lg:block
-                text-center
-                font-semibold
-                text-white
-                text-[20px]
-            ">
-                Tweet
-            </p>
-
-            </div>
-
         </div>
     );
 }

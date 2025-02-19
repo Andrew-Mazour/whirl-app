@@ -30,9 +30,9 @@ const Button: React.FC<ButtonProps> = ({
                 transition
                 border-2
                 ${fullWidth ? 'w-full' : 'w-fit'}
-                ${secondary ? 'bg-white' : 'bg-sky-500'}
-                ${secondary ? 'text-black' : 'text-white'}
-                ${secondary ? 'border-black' : 'border-sky-500'}
+                ${secondary ? 'bg-gray-200' : 'bg-gray-200'}
+                ${secondary ? 'text-blue-800' : 'text-blue-800'}
+                ${secondary ? 'border-gray-300' : 'border-gray-300'}
                 ${large ? 'text-xl' : 'text-md'}
                 ${large ? 'px-5' : 'px-4'}
                 ${large ? 'py-3' : 'py-2'}

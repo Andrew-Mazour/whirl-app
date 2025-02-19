@@ -35,8 +35,11 @@ export default async function handler(
 
         return res.status(200).json(post);
 
-    } catch (error) {
-        console.log(error);
-        return res.status(400).end();
+    } catch (error: unknown) {
+        if (error instanceof Error) {
+            console.log(error.stack);
+        } else{
+            return res.status(400).end();
+        } 
     }
 }

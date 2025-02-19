@@ -55,7 +55,7 @@ const Form: React.FC<FormProps> = ({
     }, [body, mutatePosts, isComment, postId, mutatePost])
 
     return (
-        <div className="border-b-[1px] border-neutral-800 px-5 py-2">
+        <div className="border-b-[1px] border-gray-200 px-5 py-2">
             {currentUser? (
                 <div className="flex flex-row gap-4">
                     <div>
@@ -72,12 +72,14 @@ const Form: React.FC<FormProps> = ({
                                 resize-none
                                 mt-3
                                 w-full
-                                bg-black
+                                bg-gray-200
                                 ring-0
                                 outline-none
                                 text-[20px]
                                 placeholder-neutral-500
-                                text-white
+                                text-blue-800
+                                rounded-full
+                                text-center
                             "
                             placeholder={placeholder}
                         ></textarea>
@@ -95,7 +97,7 @@ const Form: React.FC<FormProps> = ({
                             <Button 
                             disabled={isLoading || !body}
                             onClick={(onSubmit)}
-                            label="Tweet"/>
+                            label="Post"/>
                         </div>
                     </div>
                 </div>
@@ -103,13 +105,13 @@ const Form: React.FC<FormProps> = ({
             <div className="py-8">
                 <h1
                     className="
-                        text-white
+                        text-blue-800
                         text-2xl
                         text-center
                         mb-4
                         font-bold
                     "
-                >Welcome to Twitter</h1>
+                >Welcome to Whirl!</h1>
                 <div className="flex flex-row items-center justify-center gap-4">
                     <Button label="Login" onClick={loginModal.onOpen} />
                     <Button 

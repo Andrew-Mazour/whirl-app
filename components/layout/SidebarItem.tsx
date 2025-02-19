@@ -72,8 +72,8 @@ const SidebarItem: React.FC<SidebarItemProps> = ({
                     cursor-pointer
                 "
             >
-                <Icon size={24} color="white" />
-                <p className="hidden lg:block text-white text-xl">
+                <Icon size={24} color="#1e40af" /> {/* Dark blue */}
+                <p className="hidden lg:block text-blue-800 text-xl">
                     {label}
                 </p>
                 {alert ? <BsDot className="text-sky-500 absolute -top-4 left-0" size={70} /> : null}

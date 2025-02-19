@@ -58,7 +58,10 @@ export default async function handler(
             return res.status(200).json(posts);
         }
     } catch (error) {
-        console.log(error);
-        return res.status(400).end();
+        if (error instanceof Error) {
+            console.log(error.stack);
+        } else{
+            return res.status(400).end();
+        } 
     }
 }
