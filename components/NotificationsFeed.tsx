@@ -2,6 +2,7 @@ import useCurrentUser from "@/hooks/useCurrentUser";
 import useNotifications from "@/hooks/useNotifications";
 import { useEffect } from "react";
 import { BsTwitter } from "react-icons/bs";
+import Image from "next/image";
 
 const NotificationsFeed = () => {
     const {data: currentUser, mutate: mutateCurrentUser} = useCurrentUser();
@@ -39,11 +40,17 @@ const NotificationsFeed = () => {
                         p-6
                         gap-4
                         border-b-[1px]
-                        border-neutral-800
+                        border-gray-200
                     "
                 >
-                    <BsTwitter color="white" size={32}/>
-                    <p className="text-white">
+                    <Image 
+                        src="/images/whirlDot.png"
+                        alt="Notification Icon"
+                        width={32} 
+                        height={32}
+                        className="rounded-full" 
+                    />
+                    <p className="text-blue-800">
                         {notification.body}
                     </p>
                 </div>

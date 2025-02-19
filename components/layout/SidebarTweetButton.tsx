@@ -21,7 +21,7 @@ const SidebarTweetButton = () => {
             >
                 <Image 
                     src="/images/whirl.png" 
-                    alt="Tweet"
+                    alt="Whirl"
                     width={40} 
                     height={40} 
                     className="rounded-full"
@@ -41,7 +41,7 @@ const SidebarTweetButton = () => {
             >
                 <Image 
                     src="/images/whirl.png" 
-                    alt="Tweet"
+                    alt="Whirl"
                     width={60} 
                     height={60} 
                     className="mr-2"

@@ -40,7 +40,7 @@ const Form: React.FC<FormProps> = ({
 
             await axios.post(url, {body});
 
-            toast.success('Tweet Created');
+            toast.success('Whirl Created');
 
             setBody('');
             mutatePosts();

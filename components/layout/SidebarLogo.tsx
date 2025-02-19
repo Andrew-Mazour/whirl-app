@@ -8,16 +8,14 @@ const SidebarLogo = () => {
         <div 
         onClick={() => router.push('/')}
         className="
-            rounded-full
-            h-70
-            w-70
-            p-4
-            flex
-            items-center
+            flex 
+            items-center 
             justify-center
-            hover:bg-blue-300
-            hover:bg-opacity-10
-            cursor-pointer
+            w-full
+            p-4
+            hover:bg-blue-300 
+            hover:bg-opacity-10 
+            cursor-pointer 
             transition
         ">
             {/* Load custom logo */}
@@ -26,7 +24,8 @@ const SidebarLogo = () => {
                 alt="Logo"
                 width={70} 
                 height={70}
-                className="transform -translate-x-5"
+                className="w-10 h-10 md:w-[70px] md:h-[70px] md:ml-1" // Smaller on mobile (w-10, h-10), larger on md+
+                
             />
         </div>
     );

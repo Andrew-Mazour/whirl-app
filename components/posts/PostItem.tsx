@@ -63,6 +63,9 @@ const PostItem: React.FC<PostItemProps> = ({ data, userId }) => {
                 cursor-pointer
                 hover:bg-gray-200
                 transition
+                w-full
+                max-w-full
+                overflow-hidden
             "
         >
             <div className="flex flex-row items-start gap-3">
@@ -97,7 +100,7 @@ const PostItem: React.FC<PostItemProps> = ({ data, userId }) => {
                                 {createdAt}
                             </span>
                         </div>
-                        <div className="text-blue-800 mt-1">
+                        <div className="text-blue-800 mt-1 w-full max-w-full break-words break-all overflow-wrap whitespace-pre-wrap">
                             {data.body}
                         </div>
                         <div className="flex flex-row items-center mt-3 gap-10">
