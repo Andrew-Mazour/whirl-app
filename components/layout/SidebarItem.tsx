@@ -56,7 +56,7 @@ const SidebarItem: React.FC<SidebarItemProps> = ({
                 "
             >
                 <Icon size={28} color="#1e40af" />
-                {alert ? <BsDot className="text-blue-500 absolute -top-4 left-0" size={70} /> : null}
+                {alert ? <BsDot className="text-blue-600 absolute -top-4 left-0" size={70} /> : null}
             </div>
             <div 
                 className="
@@ -76,7 +76,7 @@ const SidebarItem: React.FC<SidebarItemProps> = ({
                 <p className="hidden lg:block text-blue-800 text-xl">
                     {label}
                 </p>
-                {alert ? <BsDot className="text-blue-500 absolute -top-4 left-0" size={70} /> : null}
+                {alert ? <BsDot className="text-blue-600 absolute -top-4 left-0" size={70} /> : null}
             </div>
         </div>
     );
