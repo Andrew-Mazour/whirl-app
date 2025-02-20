@@ -2,7 +2,7 @@ import {BiLogOut} from 'react-icons/bi';
 
 import SidebarLogo from './SidebarLogo';
 import SidebarItem from './SidebarItem';
-import SidebarTweetButton from './SidebarTweetButton';
+import SidebarWhirlButton from './SidebarWhirlButton';
 import useCurrentUser from '@/hooks/useCurrentUser';
 import {signOut} from 'next-auth/react';
 import { MdHome, MdNotifications, MdPerson} from 'react-icons/md';
@@ -49,7 +49,7 @@ const Sidebar = () => {
                     {currentUser && (
                         <SidebarItem onClick={() => signOut()} icon={BiLogOut} label="Logout"/>
                     )}
-                    <SidebarTweetButton />
+                    <SidebarWhirlButton />
                 </div>
             </div>
         </div>

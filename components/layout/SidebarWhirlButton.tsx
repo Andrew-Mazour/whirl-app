@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const SidebarTweetButton = () => {
+const SidebarWhirlButton = () => {
     return (
         <div>
             {/* Image for Mobile View */}
@@ -59,4 +59,4 @@ const SidebarTweetButton = () => {
     );
 }
 
-export default SidebarTweetButton;
+export default SidebarWhirlButton;
