@@ -44,21 +44,7 @@ NEXT_PUBLIC_AUTH_SECRET=your-auth-secret
 
 Modify these values based on your setup.
 
-🚀 Deployment
-
-Whirl is optimized for Vercel deployment.
-
-Deploy to Vercel
-
-Click the button below to deploy instantly:
-
-
-
-Alternatively, use the Vercel CLI:
-
-vercel
-
-🤝 Contributing
+## 🤝 Contributing
 
 We welcome contributions! To contribute:
 
