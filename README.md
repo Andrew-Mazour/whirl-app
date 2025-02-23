@@ -37,7 +37,7 @@ Open http://localhost:3000 in your browser to see the app.
 
 ## ⚙️ Environment Variables
 
-Create a .env.local file in the root directory and add the following:
+Create a **.env.local** file in the root directory and add the following:
 
 NEXT_PUBLIC_API_URL=your-api-url
 NEXT_PUBLIC_AUTH_SECRET=your-auth-secret
@@ -48,10 +48,10 @@ Modify these values based on your setup.
 
 We welcome contributions! To contribute:
 
-Fork the repository.
+**Fork** the repository.
 
-Create a branch (feature/new-feature).
+Create a **branch** (feature/new-feature).
 
-Commit changes.
+**Commit** changes.
 
-Open a Pull Request.
+Open a **Pull Request**.
