@@ -2,7 +2,7 @@
 
 Whirl is a private social media app where the admin controls who can join. Unlike traditional social networks, Whirl ensures that you only interact with your chosen friends, making it a more secure and intimate platform. Users can post, like, comment, and engage in typical social media interactions without the noise of public platforms.
 
-🚀 ## Live Demo
+## 🚀 Live Demo
 
 Whirl is deployed on Vercel. Check it out here: Whirl on Vercel
 
