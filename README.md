@@ -1,12 +1,12 @@
-##Whirl
+## Whirl
 
 Whirl is a private social media app where the admin controls who can join. Unlike traditional social networks, Whirl ensures that you only interact with your chosen friends, making it a more secure and intimate platform. Users can post, like, comment, and engage in typical social media interactions without the noise of public platforms.
 
-🚀 ##Live Demo
+🚀 ## Live Demo
 
 Whirl is deployed on Vercel. Check it out here: Whirl on Vercel
 
-🛠 ##Features
+🛠 ## Features
 
 Private Access – Only users approved by the admin can join.
 
@@ -18,7 +18,7 @@ Engagement Features – Like and comment on posts.
 
 Minimal & Secure – Focused on privacy and a distraction-free experience.
 
-📦 ##Getting Started
+📦 ## Getting Started
 
 1️⃣ Clone the Repository
 
@@ -35,7 +35,7 @@ npm run dev  # or yarn dev
 
 Open http://localhost:3000 in your browser to see the app.
 
-⚙️ ##Environment Variables
+⚙️ ## Environment Variables
 
 Create a .env.local file in the root directory and add the following:
 
