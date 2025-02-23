@@ -8,15 +8,15 @@ Whirl is deployed on Vercel. Check it out here: Whirl on Vercel
 
 ## 🛠 Features
 
-Private Access – Only users approved by the admin can join.
+**Private Access** – Only users approved by the admin can join.
 
-Friends-Only Feed – See posts only from your friends.
+**Friends-Only Feed** – See posts only from your friends.
 
-Post & Share – Create posts and share updates.
+**Post & Share** – Create posts and share updates.
 
-Engagement Features – Like and comment on posts.
+**Engagement Features** – Like and comment on posts.
 
-Minimal & Secure – Focused on privacy and a distraction-free experience.
+**Minimal & Secure** – Focused on privacy and a distraction-free experience.
 
 ## 📦 Getting Started
 
