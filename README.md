@@ -20,16 +20,16 @@ Whirl is deployed on Vercel. Check it out here: Whirl on Vercel
 
 ## 📦 Getting Started
 
-1️⃣ Clone the Repository
+1️⃣ **Clone the Repository**
 
-git clone https://github.com/your-username/whirl.git
+git clone https://github.com/your-username/whirl-app.git
 cd whirl
 
-2️⃣ Install Dependencies
+2️⃣ **Install Dependencies**
 
 npm install  # or yarn install
 
-3️⃣ Run the Development Server
+3️⃣ **Run the Development Server**
 
 npm run dev  # or yarn dev
 
